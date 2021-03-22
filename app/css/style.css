@@ -6,11 +6,29 @@ body{
 
 .logo-mask{
   position: fixed;
-  width: 90%;
-  left: 5%;
-  right: 5%;
+  width: 50%;
+  left: 25%;
+  right: 25%;
   height: 100%
 }
+
+@media only screen and (max-width: 980px) {
+  .logo-mask{
+    width: 70%;
+    left: 15%;
+    right: 15%;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .logo-mask{
+    width: 90%;
+    left: 5%;
+    right: 5%;
+  }
+}
+
 
 .logo{
   max-height: 100%;
